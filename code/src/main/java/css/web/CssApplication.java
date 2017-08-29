@@ -14,16 +14,14 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScan.Filter;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;
-import org.springframework.context.annotation.ImportResource;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
- * Ó¦ÓÃµÄÈë¿Ú
- * 
- * @author yangshuo - 2017Äê8ÔÂ29ÈÕ
+ * åº”ç”¨çš„å…¥å£
+ *
+ * @author yangshuo - 2017å¹´8æœˆ29æ—¥
  * @since
  */
-@ImportResource({ "classpath:application.xml" })
 @EnableTransactionManagement
 @Configuration
 @EnableAutoConfiguration

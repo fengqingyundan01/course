@@ -1,2 +1,2 @@
-@REM 设置库名，用于reset及update脚本
+@REM 璁剧疆搴撳悕锛岀敤浜巖eset鍙妘pdate鑴氭湰
 SET DB_NAME=css_web

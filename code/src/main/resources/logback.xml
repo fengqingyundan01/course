@@ -27,7 +27,7 @@
     <logger name="slf4j2" level="ERROR" />
     
     <!--根logger控制-->
-    <root level="DEBUG">
+    <root level="INFO">
         <appender-ref ref="STDOUT" />
     </root>
 </configuration>
