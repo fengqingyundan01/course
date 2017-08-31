@@ -48,6 +48,5 @@ public class CssApplication {
 			}
 		}
 		application.setListeners(listeners);
-
 	}
 }

@@ -110,7 +110,8 @@ public class ShiroConfiguration {
 		filterChainDefinitionMap.put("/login", "anon");
 
 		// 其他的资源访问都需要权限控制
-		filterChainDefinitionMap.put("/**", "authc");
+		// filterChainDefinitionMap.put("/**", "authc");//authc
+		filterChainDefinitionMap.put("/**", "anon");// authc
 
 		shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
 
